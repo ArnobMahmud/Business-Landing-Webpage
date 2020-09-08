@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;0,800;1,400;1,600&family=Oswald:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section_heading{
+    margin-bottom: 30px;
+}
+
+.pb_60{
+    padding-bottom: 60px;
+}
+
+.pt_60{
+    padding-top: 60px;
+}
+
+.section_heading h3{
+    color : #353535;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.section_heading img{
+    margin-top: -22px;
+    margin-left: -30px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#header{
+    background-color: #0872b9;
+    padding: 10px;
+}
+
+.header_left p{
+    color: white;
+}
+
+.header_right a{
+    margin-left: 15px;
+}
+
+.header_right a{
+    color: white;
+}
+
+.header_right a:hover{
+    color: #353535;
+}
+
+#navigation{
+    padding: 35px;
+    background-color: white;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0; 
+    margin-left: 15px;
+    color: #353535;
+    font-size : 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    transition: all linear 0.3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #0872b9;
+}
+
+
+#banner{
+    background-image: url(../assets/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+}
+
+.bnr_overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 88px;
+}
+
+.bnr_content h2{
+    font-size: 30px;
+    color: white;
+}
+
+.bnr_content h1{
+    font-size: 40px;
+    color: white;
+    padding-top: 15px;
+}
+
+.bnr_content p {
+    font-size: 13px;
+    color: white;
+    padding: 32px 0px 58px;
+}
+
+.bnr_content a{
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+.bnr_content a:hover{
+    border: 1px solid #0872b9;
+    background: #0872b9;
+}
+
+
+.about_content p{
+    color: #555555;
+    font-size: 13px;
+}
+
+.about_content p:nth-child(1){
+    margin-top: 42px;
+    margin-bottom: 36px;
+}
