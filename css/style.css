@@ -179,6 +179,33 @@ body{
     margin-top: 42px;
     margin-bottom: 36px;
 }
+/* About Ends */
+
+/* Portfolio Start */
+
+.port_img{
+    margin-left: -22px;
+    margin-top: -10px;
+}
+
+.portfolio_heading{
+    margin-bottom: 30px;
+}
 
 
-/* About Endss */
+.port_overlay :nth-child(5){
+    margin-top: -75px;
+}
+
+.port_overlay :nth-child(6){
+    margin-top: 20px;
+}
+
+.port_overlay :nth-child(7){
+    margin-top: -75px;
+}
+
+.port_overlay :nth-child(8){
+    margin-top: 20px;
+}
+/* Portfolio Ends*/
