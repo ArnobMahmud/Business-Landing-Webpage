@@ -29,6 +29,17 @@ p{
     font-family: 'Open Sans', sans-serif;
 }
 
+
+.header{
+    position: sticky;
+    z-index: 9;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
 .section_heading{
     margin-bottom: 30px;
 }
@@ -56,6 +67,8 @@ body{
     overflow-x: hidden;
 }
 
+/* Heading Starts */
+
 #header{
     background-color: #0872b9;
     padding: 10px;
@@ -71,12 +84,16 @@ body{
 
 .header_right a{
     color: white;
+    transition: all linear 0.3s;
 }
 
 .header_right a:hover{
     color: #353535;
 }
 
+/* Heading Ends */
+
+/* Navigation Starts */
 #navigation{
     padding: 35px;
     background-color: white;
@@ -97,6 +114,14 @@ body{
     color: #0872b9;
 }
 
+.navbar-toggler-icon .bar{
+    color: #353535;
+    border-color: black;
+}
+
+/* Navigation Ends */
+
+/* Banner Starts */
 
 #banner{
     background-image: url(../assets/banner.png);
@@ -134,6 +159,7 @@ body{
     display: inline-block;
     border: 1px solid white;
     margin-left: 20px;
+    transition: all linear 0.3s;
 }
 
 .bnr_content a:hover{
@@ -141,7 +167,9 @@ body{
     background: #0872b9;
 }
 
+/* Banner Ends */
 
+/* About Starts */
 .about_content p{
     color: #555555;
     font-size: 13px;
@@ -151,3 +179,6 @@ body{
     margin-top: 42px;
     margin-bottom: 36px;
 }
+
+
+/* About Endss */
