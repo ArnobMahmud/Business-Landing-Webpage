@@ -39,6 +39,14 @@ html{
     scroll-behavior: smooth;
 }
 
+.nav_scroll{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(36, 34, 34, 0.342);
+    z-index: 1;
+}
 
 .section_heading{
     margin-bottom: 30px;
@@ -183,6 +191,11 @@ body{
 
 /* Services Starts */
 
+#service .section_heading{
+    margin-bottom: 60px;
+}
+
+
 #service .section_heading img{
     margin-left: -65px;
 }
@@ -261,5 +274,71 @@ body{
 /* Portfolio Start */
 
 
+.portfolio_heading{
+    margin-bottom: 20px;
 
+}
+
+
+.portfolio_heading img{
+    margin-left: -100px;
+    margin-top: -20px;
+}
+
+.big_image,
+.small_image{
+    position: relative;
+    overflow: hidden;
+}
+
+.port_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+    top: -100%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.port_overlay a{
+    height: 40px;
+    width: 40px;
+    border: 50%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50%;
+    margin-top: 50%;
+    transition: 0.3s;
+}
+
+.big_image:hover .port_overlay a,
+.small_image:hover .port_overlay a{
+    background-color: #77cff6;
+    border: 1px solid #77cff6;
+}
+
+.big_image:hover .port_overlay,
+.small_image:hover .port_overlay{
+    background-color: rgba(0, 0, 0, 0.425);
+    top: 0%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.small_image{
+    margin-bottom: 20px;
+}
+
+.big_image{
+    margin-bottom: 20px;
+}
 /* Portfolio Ends*/
