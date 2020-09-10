@@ -181,31 +181,85 @@ body{
 }
 /* About Ends */
 
+/* Services Starts */
+
+#service .section_heading img{
+    margin-left: -65px;
+}
+
+
+.service_main{
+    position: relative;
+}
+
+.service_icon{
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 81px;
+    width: 81px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_icon2{
+    height: 75px;
+    width: 75px;
+    border: 2px solid #fbfbfb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_icon3{
+    height: 69px;
+    width: 69px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_content{
+    text-align: center;
+    padding: 51px 22px 20px;
+    background-color: #f1f1f1;
+}
+
+.service_content h4{
+    font-size: 16px;
+    color: #353535;
+}
+
+.service_content p{
+    font-size: 13px;
+    color: #555555;
+    margin-top: 20px;
+}
+
+
+.service_main:hover .service_content{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.23);
+}
+
+.service_main:hover .service_icon2{
+    border: 1px solid #77cff6;
+}
+
+.service_main:hover .service_icon3{
+    background-color: #77cff6 ;
+}
+/* Services Ends */
+
+
 /* Portfolio Start */
 
-.port_img{
-    margin-left: -22px;
-    margin-top: -10px;
-}
-
-.portfolio_heading{
-    margin-bottom: 30px;
-}
 
 
-.port_overlay :nth-child(5){
-    margin-top: -75px;
-}
-
-.port_overlay :nth-child(6){
-    margin-top: 20px;
-}
-
-.port_overlay :nth-child(7){
-    margin-top: -75px;
-}
-
-.port_overlay :nth-child(8){
-    margin-top: 20px;
-}
 /* Portfolio Ends*/
